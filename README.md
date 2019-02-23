@@ -1,6 +1,6 @@
 # Ionic 4 and Angular 6 Tutorial: Firebase Realtime CRUD Mobile App
 
-This source code is part of 
+This source code is part of
 [Building a CRUD Ionic application with Firestore](https://javebratt.com/crud-ionic-firestore/) tutorial.
 
 # About
@@ -15,6 +15,16 @@ Firestore is Firebase’s new database. It’s a managed NoSQL document-oriented
 * Clone this repo
 * Run `npm install`
 * Run `ionic serve`
+* Run `ionic serve -l` for ionic lab view
+
+# Android Publishing
+
+To generate a release build for Android, we can use the following cordova cli command:
+
+```bash
+ ionic cordova build --release android
+```
+Next, we can find our unsigned APK file in platforms/android/build/outputs/apk
 
 # App screenshots:
 
@@ -41,4 +51,3 @@ Firestore is Firebase’s new database. It’s a managed NoSQL document-oriented
 ```
 
 ![firestore-app-shot-3-create](https://user-images.githubusercontent.com/24749532/53285969-bbab6880-378d-11e9-9f43-f5f0649a9c74.PNG)
-
