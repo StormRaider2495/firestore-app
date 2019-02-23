@@ -18,15 +18,27 @@ Firestore is Firebase’s new database. It’s a managed NoSQL document-oriented
 
 # App screenshots:
 
+```
 * Firestore db screenshot
+```
+
 ![firestore-db-shotpng](https://user-images.githubusercontent.com/24749532/53285966-b0f0d380-378d-11e9-8c05-6adb278049dc.PNG)
 
+```
 * Application home screenshot
+```
+
 ![firestore-app-shot-1-home](https://user-images.githubusercontent.com/24749532/53285967-b5b58780-378d-11e9-9241-6f9d43b86d54.PNG)
 
+```
 * Application details view page screenshot
+```
+
 ![firestore-app-shot-2-details](https://user-images.githubusercontent.com/24749532/53285968-b817e180-378d-11e9-8353-f6dc8439b227.PNG)
 
+```
 * Application create entry page screenshot
+```
+
 ![firestore-app-shot-3-create](https://user-images.githubusercontent.com/24749532/53285969-bbab6880-378d-11e9-9f43-f5f0649a9c74.PNG)
 
