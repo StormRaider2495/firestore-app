@@ -21,10 +21,28 @@ Firestore is Firebase’s new database. It’s a managed NoSQL document-oriented
 
 To generate a release build for Android, we can use the following cordova cli command:
 
+
+* To get the unsigned apk output.
+Note: This form of release is unsigned and and cannot be installed in any device.
 ```bash
  ionic cordova build --release android
 ```
 Next, we can find our unsigned APK file in platforms/android/build/outputs/apk
+
+
+* To get the debug apk which can be debugged with Chrome
+```bash
+ionic cordova build android --prod
+```
+Next, we can find our unsigned APK file in platforms/android/debug/outputs/apk
+
+
+* To get the production release
+```bash
+ionic cordova build android --prod --release
+```
+Next, we can find our unsigned APK file in platforms/android/prod/outputs/apk
+
 
 # App screenshots:
 
